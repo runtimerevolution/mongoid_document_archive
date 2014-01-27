@@ -6,15 +6,11 @@ Provides an alternative way to soft delete a mongoid document, copying the docum
 
 Add this line to your application's Gemfile:
 
-    gem 'mongoid_document_archive'
+    gem 'mongoid_document_archive', :git => 'git://github.com/runtimerevolution/mongoid_document_archive.git'
 
 And then execute:
 
     $ bundle
-
-Or install it yourself as:
-
-    $ gem install mongoid_document_archive
 
 ## Usage
 
